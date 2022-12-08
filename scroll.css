@@ -1,145 +1,305 @@
-.nav-link:focus, .nav-link:hover{
+
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:focus,
+.nav-link:hover {
     color: white;
 }
-.background-image{
+
+.background-image {
     background-image: url(pic/5711485_393.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.nav-link{
+
+.nav-link {
     color: white;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #f05200;
 }
-.massive-head{
+
+.massive-head {
     text-align: center;
 }
-.mass{
-    font-size: 100px;
-    font-weight: 700;
-    letter-spacing: 5px;
+.mass {
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 165px;
+    font-weight: 900;
+    line-height: 165px;
+    letter-spacing: 17px;
+    text-align: end;
 }
-.studios h1{
-    font-size: 70px;
-    font-weight: 700px;
+
+.studios h1 {
     color: #f05200;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 73px;
+    font-weight: 900;
+    line-height: 73px;
+    letter-spacing: 12px;
+    text-align: end;
 }
-.hiring-btn{
+
+.hiring-btn {
     color: white;
     background: #f05200;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
-.about h1{
+
+.about h1 {
     font-size: 100px;
     font-weight: 700;
     color: white;
+    line-height: 70px;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.us h1{
+
+.us h1 {
     font-size: 100px;
     font-weight: 700;
+    color: #f05200;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.massive h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    line-height: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.careers h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: #f05200;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.massive-careers-txt span {
     color: #f05200;
 }
 
-.massive h1{
-    font-size: 100px;
-    font-weight: 700;
-    color: white;
-}
-.careers h1{
-    font-size: 100px;
-    font-weight: 700;
-    color: #f05200;
-}
-.massive-careers-txt span{
-    color: #f05200;
-}
-.form-control{
+.form-control {
     background: transparent;
 }
-.dropdown-toggle{
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.dropdown-toggle {
     background: white;
     color: black;
 }
-.card-title{
+
+.card-title {
     color: #f05200;
 }
-.card-link{
+
+.card-link {
     color: #f05200;
 }
-.ftr ul li{
- list-style-type: none;
+
+.ftr ul li {
+    list-style-type: none;
 }
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
     color: var(--bs-btn-active-color);
     background-color: #f05200;
     border-color: var(--bs-btn-active-border-color);
 }
+
 @media screen and (max-width: 768px) {
-    .mass{
+    .mass {
         font-size: 50px;
         font-weight: 700;
         letter-spacing: 5px;
         color: white;
     }
-    .studios h1{
+
+    .studios h1 {
         font-size: 35px;
         font-weight: 700px;
         color: #f05200;
     }
-    .about h1{
+
+    .about h1 {
         font-size: 50px;
         font-weight: 700;
         color: white;
+        line-height: 70px;
+        font-family: 'Josefin Sans', sans-serif;
     }
-    .us h1{
+
+    .us h1 {
         font-size: 50px;
         font-weight: 700;
         color: #f05200;
+        line-height: 70px;
+        font-family: 'Josefin Sans', sans-serif;
     }
-    .massive h1{
+
+    .massive h1 {
         font-size: 50px;
         font-weight: 700;
         color: white;
+        line-height: 70px;
+        font-family: 'Josefin Sans', sans-serif;
     }
-    .careers h1{
+
+    .careers h1 {
         font-size: 50px;
         font-weight: 700;
         color: #f05200;
+        line-height: 70px;
+        font-family: 'Josefin Sans', sans-serif;
     }
 }
 
 @media screen and (max-width:320px) {
-    .mass{
+    .mass {
         font-size: 40px;
         font-weight: 700;
         letter-spacing: 5px;
         color: white;
     }
-    .studios h1{
+
+    .studios h1 {
         font-size: 25px;
         font-weight: 700px;
         color: #f05200;
     }
-    .about h1{
+
+    .about h1 {
         font-size: 40px;
         font-weight: 700;
         color: white;
+        line-height: 70px;
+        font-family: 'Josefin Sans', sans-serif;
     }
-    .us h1{
+
+    .us h1 {
         font-size: 40px;
         font-weight: 700;
         color: #f05200;
+        line-height: 70px;
+        font-family: 'Josefin Sans', sans-serif;
     }
-    .massive h1{
+
+    .massive h1 {
         font-size: 40px;
         font-weight: 700;
         color: white;
+        line-height: 70px;
+        font-family: 'Josefin Sans', sans-serif;
     }
-    .careers h1{
+
+    .careers h1 {
         font-size: 40px;
         font-weight: 700;
         color: #f05200;
+        line-height: 70px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mass{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 128px;
+        font-weight: 900;
+        line-height: 128px;
+        letter-spacing: 17px;
+        text-align: end;
+    }
+    .studios h1{
+        color: #f05200;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 53px;
+        font-weight: 900;
+        line-height: 73px;
+        letter-spacing: 12px;
+        text-align: end;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mass{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 114px;
+        font-weight: 900;
+        line-height: 128px;
+        letter-spacing: 17px;
+        text-align: end;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .mass{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 56px;
+        font-weight: 900;
+        line-height: 24px;
+        letter-spacing: 5px;
+        text-align: end;
+    }
+    .studios h1{
+        color: #f05200;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 73px;
+        letter-spacing: 5px;
+        text-align: end;
+    }   
+}
+
+@media screen and (max-width: 425px) {
+    .mass{
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 24px;
+        letter-spacing: 5px;
+        text-align: end;
+    }
+    .studios h1{
+        color: #f05200;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 73px;
+        letter-spacing: 5px;
+        text-align: end;
+    } 
+    .hiring-btn{
+        color: white;
+        background: #f05200;
+        padding: 10px 25px 10px 25px;
+        font-size: 14px;
+        border-radius: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
     }
 }
