@@ -1,0 +1,212 @@
+.nav-link{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: #f05200;
+}
+
+.background-image {
+    background-image: url(pic/5711485_393.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #f05200;
+    border-bottom: 3px solid #f05200;
+    border-radius: 0px;
+    padding: 0px;
+    background: transparent;
+}
+.background-image{
+    background-image: url(pic/5711485_393.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-image{
+    background-image: url(pic/5711485_393.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.game-math{
+    position: relative;
+    top: 90px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.game-math h1{
+    color: #f05200;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+.col-lg-7{
+    font-family: Montserrat;
+}
+.page-head{
+    color: #f05200;
+}
+.form-heading{
+    color: #f05200;
+}
+.ftr ul li{
+    list-style-type: none;
+}
+.job p{
+    font-size: 14px;
+}
+.head h4{
+    color: #f05200;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.head ul li{
+    font-size: 14px;
+    line-height: 25px;
+    list-style-type: none;
+    text-align: justify;
+    padding-right: 30px;
+}
+.btn-block{
+    background: #f05200;
+    color: white;
+}
+.form-check-input:checked{
+    background-color: #f05200;
+    border-color: #0d6efd;
+}
+.form-background{
+    background: #1a1a1a;
+}
+.form-border{
+    border: 5px solid white;
+    border-radius: 13px;
+    padding: 35px;
+    background: #1a1a1a;
+    height: fit-content;
+}
+.apply-for-position{
+    color: #f05200;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.form-label{
+    font-family: 'Montserrat', sans-serif;;
+}
+#exampleName1{
+    background: #1a1a1a;
+    border: 1px solid white;
+    border-radius: 0px;
+    color: white;
+}
+#exampleInputEmail1{
+    background: #1a1a1a;
+    border: 1px solid white;
+    border-radius: 0px;
+    color: white;
+}
+#examplephone1{
+    background: #1a1a1a;
+    border: 1px solid white;
+    border-radius: 0px;
+    color: white;
+}
+#exampleFormControlTextarea1{
+    background: #1a1a1a;
+    border: 1px solid white;
+    border-radius: 0px;
+    color: white;
+}
+#exampleName1:hover{
+    border-radius: 1px solid;
+    border-color: red;
+    background-color: #1a1a1a;
+}
+#exampleInputEmail1:hover{
+    border-radius: 1px solid;
+    border-color: red;
+}
+#examplephone1:hover{
+    border-radius: 1px solid;
+    border-color: red;
+}
+#exampleFormControlTextarea1:hover{
+    border-radius: 1px solid;
+    border-color: red;
+}
+.awsm-job-form-field{
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.submit{
+    background: #f05200;
+    color: white;
+    border-radius: 13px;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.submit:hover{
+    background: white;
+    color: #f05200;
+}
+.ftr ul li {
+    list-style-type: none;
+    font-family: "Montserrat", 'renogareregular', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.ftr span{
+    font-size: x-large;
+    border: 1px solid white;
+    border-radius: 74%;
+    padding: 6px;
+}
+.ftr span:hover{
+    background-color: #f05200;
+    color: white;
+}
+
+@media screen and (max-width: 425px) {
+    .submit{
+        background: #f05200;
+        color: white;
+        border-radius: 13px;
+        font-size: 18px;
+        line-height: 26px;
+        font-family: Montserrat;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
